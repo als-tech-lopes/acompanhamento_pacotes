@@ -1,0 +1,1 @@
+TRUNCATE TABLE bronze_entregas_raw;

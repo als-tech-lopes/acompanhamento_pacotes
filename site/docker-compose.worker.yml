@@ -1,0 +1,16 @@
+services:
+  import-worker:
+    build: ./worker
+    restart: unless-stopped
+    env_file:
+      - .env.local
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@host.docker.internal:54322/postgres
+      SUPABASE_URL: http://host.docker.internal:54321
+      POLL_INTERVAL_SECONDS: 2
+      BATCH_SIZE: 500
+      STALE_JOB_MINUTES: 60
+      SOURCE_TIMEZONE: America/Sao_Paulo
+      CSV_ENCODING: utf-8-sig
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

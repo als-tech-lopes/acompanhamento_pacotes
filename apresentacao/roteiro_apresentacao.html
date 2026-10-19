@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Roteiro de apresentação — Anjun Control Tower</title>
+  <style>
+    @page { size: A4; margin: 16mm 17mm 15mm; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #173249; font: 10.5pt/1.5 "Segoe UI", Arial, sans-serif; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { font-size: 28pt; line-height: 1.08; letter-spacing: -.8px; }
+    h2 { font-size: 19pt; line-height: 1.2; margin-bottom: 8px; }
+    h3 { font-size: 12pt; margin-bottom: 5px; color: #0d6c78; }
+    p { margin-bottom: 9px; }
+    ul, ol { margin: 5px 0 12px; padding-left: 20px; }
+    li { margin-bottom: 4px; }
+    .page { page-break-after: always; min-height: 255mm; position: relative; }
+    .page:last-child { page-break-after: auto; }
+    .cover { margin: -16mm -17mm -15mm; min-height: 297mm; padding: 28mm 24mm; color: white; background: linear-gradient(145deg,#0b2c42 0%,#0e5262 68%,#ee7436 160%); }
+    .mark { width: 47px; height: 47px; border: 4px solid #f47a36; border-radius: 11px; transform: rotate(45deg); margin: 5mm 0 30mm; }
+    .kicker { color: #f7a06e; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .cover h1 { max-width: 150mm; margin: 7mm 0 8mm; font-size: 34pt; }
+    .cover .subtitle { max-width: 145mm; color: #cce0e7; font-size: 15pt; }
+    .cover .quote { position: absolute; left: 24mm; right: 24mm; bottom: 32mm; border-left: 4px solid #f47a36; padding-left: 7mm; font-size: 14pt; }
+    .section-label { color: #e86f34; font-size: 8.5pt; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 3mm; }
+    .lead { color: #4f6877; font-size: 12pt; line-height: 1.55; }
+    .speech { background: #f2f7f8; border-left: 4px solid #0f8790; border-radius: 0 8px 8px 0; padding: 11px 14px; margin: 8px 0 14px; }
+    .speech p:last-child { margin-bottom: 0; }
+    .tip { background: #fff5ed; border: 1px solid #f6d1ba; border-radius: 8px; padding: 10px 12px; margin: 10px 0; }
+    .tip strong { color: #d35f27; }
+    .timeline { border-left: 2px solid #d7e3e7; margin-left: 7px; padding-left: 17px; }
+    .step { position: relative; margin-bottom: 14px; }
+    .step:before { content: ""; position: absolute; left: -23px; top: 4px; width: 10px; height: 10px; background: #f47a36; border-radius: 50%; box-shadow: 0 0 0 4px white; }
+    .time { color: #e36f34; font-weight: 800; font-size: 9pt; }
+    .flow { display: flex; align-items: center; justify-content: center; gap: 7px; margin: 14px 0 18px; }
+    .flow span { background: #eff6f7; border: 1px solid #d6e4e7; border-radius: 8px; padding: 10px 9px; text-align: center; font-weight: 700; flex: 1; }
+    .flow b { color: #e36f34; font-size: 15pt; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th { background: #123d51; color: white; text-align: left; }
+    th, td { padding: 8px 10px; border: 1px solid #dce5e8; vertical-align: top; }
+    tr:nth-child(even) td { background: #f6f9fa; }
+    .slide { border: 1px solid #dce6e9; border-radius: 10px; padding: 11px 13px; margin-bottom: 9px; break-inside: avoid; }
+    .slide b { color: #e36f34; }
+    .footer { position: absolute; bottom: 0; left: 0; right: 0; border-top: 1px solid #dfe7ea; padding-top: 5px; color: #84949e; font-size: 8pt; display: flex; justify-content: space-between; }
+    .closing { background: #123d51; color: white; border-radius: 13px; padding: 22px; margin-top: 18px; font-size: 17pt; line-height: 1.35; }
+    .muted { color: #6f828e; }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <div class="mark"></div>
+    <div class="kicker">Anjun Control Tower</div>
+    <h1>Como automatizar decisões quando os sistemas não oferecem API</h1>
+    <p class="subtitle">Roteiro de apresentação para call online e palestra — transformando arquivos operacionais em uma torre de controle logística.</p>
+    <div class="quote">“Enquanto a API não chega, a operação não precisa continuar trabalhando no escuro.”</div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">Estratégia da apresentação</div>
+    <h2>Mensagem central</h2>
+    <p class="lead">O produto deve ser apresentado como uma ponte entre a operação manual por planilhas e uma futura integração automática. Seu valor está em transformar os arquivos que a empresa já recebe em informação confiável, rastreável e acionável.</p>
+    <div class="speech"><p>“Quando o sistema de origem não oferece API, a empresa não precisa escolher entre trabalhar no escuro ou esperar meses por uma integração. Esta plataforma transforma os arquivos que já existem na operação em uma torre de controle estruturada.”</p></div>
+    <h3>Três ideias que o público deve levar</h3>
+    <ol>
+      <li><strong>Os dados já existem.</strong> O problema está na consolidação manual e na demora para convertê-los em decisão.</li>
+      <li><strong>Não é preciso esperar pela integração perfeita.</strong> A automação pode começar na entrada controlada de arquivos.</li>
+      <li><strong>A solução é evolutiva.</strong> A mesma plataforma pode futuramente receber dados por API, e-mail monitorado ou rotinas agendadas.</li>
+    </ol>
+    <div class="tip"><strong>Posicionamento:</strong> não chame a solução de “leitor de planilhas”. Apresente-a como uma camada de controle, padronização e inteligência operacional.</div>
+    <div class="footer"><span>Anjun Control Tower</span><span>Roteiro de apresentação</span></div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">Call online · 12 a 15 minutos</div>
+    <h2>Roteiro executivo</h2>
+    <div class="timeline">
+      <div class="step"><span class="time">1 MINUTO · ABERTURA</span><div class="speech"><p>“Hoje eu quero mostrar uma solução para um problema comum nas operações logísticas: nós temos os dados, mas eles não chegam de forma integrada. Muitas transportadoras, parceiros e sistemas não oferecem uma API pronta. O problema não é a falta de dados; é transformar esses arquivos em informação confiável, rápida e utilizável.”</p></div></div>
+      <div class="step"><span class="time">2 MINUTOS · O PROBLEMA</span><div class="speech"><p>“Sem uma plataforma centralizada, cada pessoa mantém sua própria planilha. Isso gera versões diferentes da mesma informação, indicadores calculados de formas distintas e muito tempo gasto procurando o que realmente está acontecendo.”</p><p>“Quantas entregas estão atrasadas? Quais estão sem movimentação? Qual região está com pior SLA? Este arquivo já foi carregado? Quando essas respostas dependem de várias planilhas, a gestão se torna reativa.”</p></div></div>
+      <div class="step"><span class="time">1 MINUTO · A SOLUÇÃO</span><div class="speech"><p>“A plataforma não depende de uma API no sistema de origem. Ela utiliza os arquivos que a empresa já recebe — XLSX, XLS ou CSV — e os transforma em uma base única de acompanhamento. É a automação da consolidação, mesmo quando a origem ainda é manual.”</p></div></div>
+    </div>
+    <div class="footer"><span>Anjun Control Tower</span><span>Call online</span></div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">Call online · demonstração</div>
+    <h2>Sequência da demonstração</h2>
+    <div class="slide"><b>1. Dashboard</b><br>“Aqui temos a visão consolidada da operação: SLA da cadeia, backlog, última milha e entregas sem movimentação. O gestor identifica rapidamente onde precisa atuar, sem abrir várias planilhas.”</div>
+    <div class="slide"><b>2. Importação</b><br>“Quando um novo relatório chega, o usuário seleciona o arquivo. A plataforma valida o formato, controla o tamanho, evita processamento duplicado e acompanha o progresso da carga.”</div>
+    <div class="slide"><b>3. Histórico</b><br>“Cada carga fica registrada. É possível conferir quando o arquivo foi recebido, quantas linhas foram processadas e se houve erro ou duplicidade. Isso cria rastreabilidade.”</div>
+    <div class="slide"><b>4. Entregas</b><br>“A equipe pesquisa por Waybill, pedido, cliente ou cidade e filtra por status. No detalhe da remessa, visualiza prazo, atraso, destino e último evento.”</div>
+    <div class="slide"><b>5. Indicadores e metas</b><br>“As metas de SLA permitem comparar o resultado real com o objetivo esperado. A plataforma deixa de mostrar apenas números e passa a indicar onde a atuação é necessária.”</div>
+    <div class="tip"><strong>Antes da call:</strong> use um arquivo inédito para demonstrar a importação. Uma amostra já carregada será corretamente identificada como duplicada.</div>
+    <h3>Valor para o negócio</h3>
+    <div class="speech"><p>“A principal entrega é reduzir a distância entre receber um arquivo e tomar uma decisão. O processo fica padronizado, reduz retrabalho e erros manuais, cria uma fonte única de informação e libera a equipe para atuar nos problemas da operação.”</p></div>
+    <div class="footer"><span>Anjun Control Tower</span><span>Demonstração</span></div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">Call online · encerramento</div>
+    <h2>Evolução e fechamento</h2>
+    <div class="speech"><p>“A importação de arquivos não precisa ser o ponto final. Ela é uma maneira rápida de estruturar a operação enquanto uma API ainda não existe.”</p><p>“No futuro, a mesma plataforma pode receber dados automaticamente por API, armazenamento, e-mail monitorado ou rotinas agendadas. O dashboard e as regras operacionais permanecem; muda apenas a forma de entrada.”</p></div>
+    <div class="flow"><span>Importação<br>manual controlada</span><b>›</b><span>Captura automática<br>de arquivos</span><b>›</b><span>Integrações<br>por API</span><b>›</b><span>Alertas e ações<br>automatizadas</span></div>
+    <h3>Fechamento sugerido</h3>
+    <div class="speech"><p>“Esta solução permite começar agora, com os dados que já temos e sem depender de uma integração complexa. Ela transforma arquivos isolados em uma visão operacional centralizada, rastreável e orientada à ação.”</p><p>“A pergunta deixa de ser ‘quando teremos uma API?’ e passa a ser ‘como podemos utilizar melhor os dados que já recebemos?’”</p></div>
+    <h3>Perguntas para conduzir a conversa</h3>
+    <ul>
+      <li>Com que frequência os relatórios são recebidos hoje?</li>
+      <li>Quanto tempo a equipe gasta consolidando e validando os arquivos?</li>
+      <li>Quais indicadores são mais difíceis de obter?</li>
+      <li>Quem precisa acessar a visão consolidada?</li>
+      <li>Qual seria a frequência ideal de atualização?</li>
+    </ul>
+    <div class="footer"><span>Anjun Control Tower</span><span>Fechamento da call</span></div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">Palestra · 25 a 35 minutos</div>
+    <h2>Estrutura dos slides — parte 1</h2>
+    <div class="slide"><b>Slide 1 · O paradoxo dos dados</b><br>“Temos muitos dados, mas pouca informação pronta para decisão.” Mostre que os dados existem, porém chegam em arquivos, formatos e momentos diferentes.</div>
+    <div class="slide"><b>Slide 2 · Como a operação trabalha sem integração</b><div class="flow"><span>Sistema</span><b>›</b><span>Planilha</span><b>›</b><span>Tratamento manual</span><b>›</b><span>Indicador atrasado</span></div>“Quanto mais manual é esse fluxo, maior é a possibilidade de atraso, erro e divergência.”</div>
+    <div class="slide"><b>Slide 3 · Os custos invisíveis</b><br>Horas gastas consolidando arquivos, duplicidades, indicadores inconsistentes, ausência de histórico e dependência de pessoas específicas.</div>
+    <div class="slide"><b>Slide 4 · Não ter API não significa não poder automatizar</b><br>“A automação pode começar na entrada do arquivo.” Explique a padronização da recepção, validação, transformação e visualização.</div>
+    <div class="slide"><b>Slide 5 · A proposta</b><div class="flow"><span>Arquivo</span><b>›</b><span>Validação</span><b>›</b><span>Base consolidada</span><b>›</b><span>Decisão</span></div></div>
+    <div class="slide"><b>Slide 6 · Governança</b><br>Original preservado, dados padronizados, duplicidades identificadas, indicadores consolidados e histórico de cada importação.</div>
+    <div class="footer"><span>Anjun Control Tower</span><span>Palestra</span></div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">Palestra · 25 a 35 minutos</div>
+    <h2>Estrutura dos slides — parte 2</h2>
+    <div class="slide"><b>Slide 7 · Demonstração</b><br>Dashboard → Importação → Histórico → Busca de entrega → Indicadores e metas.</div>
+    <div class="slide"><b>Slide 8 · Exemplo de atuação</b><br>“Imagine que o dashboard identifica 300 entregas sem movimentação há mais de 72 horas. Sem a plataforma, alguém precisaria localizar o relatório, aplicar filtros e distribuir o resultado. Com a plataforma, a equipe começa diretamente pela tratativa.”</div>
+    <div class="slide"><b>Slide 9 · Antes e depois</b>
+      <table><tr><th>Antes</th><th>Depois</th></tr><tr><td>Arquivos dispersos</td><td>Base centralizada</td></tr><tr><td>Conferência manual</td><td>Validação padronizada</td></tr><tr><td>Risco de duplicidade</td><td>Deduplicação automática</td></tr><tr><td>Indicadores manuais</td><td>Dashboard atualizado por carga</td></tr><tr><td>Pouca rastreabilidade</td><td>Histórico de importações</td></tr><tr><td>Decisão reativa</td><td>Priorização operacional</td></tr></table>
+    </div>
+    <div class="slide"><b>Slide 10 · Limites e transparência</b><br>“Esta não é uma integração em tempo real enquanto a origem continuar sendo um arquivo. A atualização depende da frequência de recebimento e importação. Ainda assim, substitui um processo manual e pouco controlado por outro estruturado, repetível e auditável.”</div>
+    <div class="slide"><b>Slide 11 · Caminho de evolução</b><br>Importação controlada → captura automática → APIs → alertas e ações automatizadas.</div>
+    <div class="footer"><span>Anjun Control Tower</span><span>Palestra</span></div>
+  </section>
+
+  <section class="page">
+    <div class="section-label">Encerramento</div>
+    <h2>Conclusão da palestra</h2>
+    <div class="speech"><p>“A transformação digital não precisa começar com a integração perfeita.”</p><p>“Ela pode começar organizando o dado disponível, criando confiança na informação e reduzindo o tempo entre o evento e a decisão.”</p><p>“Esta plataforma faz exatamente isso: transforma arquivos operacionais em gestão.”</p></div>
+    <div class="closing">“Enquanto a API não chega, a operação não precisa continuar trabalhando no escuro.”</div>
+    <h3 style="margin-top:24px">Checklist antes de apresentar</h3>
+    <ul>
+      <li>Confirmar que aplicação, Supabase e worker estão ativos.</li>
+      <li>Preparar uma planilha inédita e previamente validada.</li>
+      <li>Manter uma carga concluída no histórico para demonstrar downloads.</li>
+      <li>Abrir o dashboard antes da reunião e conferir os indicadores.</li>
+      <li>Ter capturas de tela como plano alternativo em caso de instabilidade.</li>
+      <li>Adaptar exemplos e perguntas ao segmento do público.</li>
+    </ul>
+    <p class="muted">Documento preparado para uso em apresentação online e palestra presencial.</p>
+    <div class="footer"><span>Anjun Control Tower</span><span>Fim</span></div>
+  </section>
+</body>
+</html>
